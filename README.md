@@ -139,10 +139,7 @@ This project demonstrates:
 - Screen navigation with Intents
 - Introductory Firebase Authentication integration
 
-## Author
 
-**Your Name**
-GitHub: [@your-username](https://github.com/your-username)
 
 ---
 
