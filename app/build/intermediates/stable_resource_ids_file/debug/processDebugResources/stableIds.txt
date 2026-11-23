@@ -1,0 +1,6 @@
+com.example.studentscorepredictor:id/studyTime = 0x7f010004
+com.example.studentscorepredictor:id/result = 0x7f010003
+com.example.studentscorepredictor:layout/activity_main = 0x7f020000
+com.example.studentscorepredictor:id/previousGrade = 0x7f010002
+com.example.studentscorepredictor:id/predictButton = 0x7f010001
+com.example.studentscorepredictor:id/absences = 0x7f010000

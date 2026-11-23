@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Score Predictor"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Study time category (1-4)" />
+        <EditText android:id="@+id/studyTime" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="number"
+            android:hint="1, 2, 3, or 4" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Number of absences" android:paddingTop="12dp" />
+        <EditText android:id="@+id/absences" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="number"
+            android:hint="e.g. 4" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Previous period grade (G2), 0-20" android:paddingTop="12dp" />
+        <EditText android:id="@+id/previousGrade" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:inputType="numberDecimal"
+            android:hint="e.g. 12" />
+        <Button android:id="@+id/predictButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Predict Final Grade"
+            android:layout_marginTop="20dp" />
+        <TextView android:id="@+id/result" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Your prediction will appear here."
+            android:textSize="18sp" android:gravity="center" android:paddingTop="24dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Study time: 1 = less than 2 hours/week; 2 = 2-5; 3 = 5-10; 4 = more than 10 hours/week."
+            android:textSize="12sp" android:paddingTop="24dp" />
+    </LinearLayout>
+</ScrollView>

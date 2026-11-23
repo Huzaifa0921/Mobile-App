@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+id absences
+id predictButton
+id previousGrade
+id result
+id studyTime
+layout activity_main

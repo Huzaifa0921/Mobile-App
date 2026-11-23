@@ -1,0 +1,7 @@
+com.example.studentscorepredictor
+id absences
+id predictButton
+id previousGrade
+id result
+id studyTime
+layout activity_main

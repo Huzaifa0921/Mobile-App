@@ -1,0 +1,4 @@
+Run the supplied Google Colab notebook to generate:
+- student_score_model.tflite
+- scaler_config.json
+Then copy both files into this assets folder (replacing this note).
